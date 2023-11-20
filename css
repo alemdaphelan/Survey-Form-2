@@ -1,0 +1,70 @@
+label,input{
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  span{
+    font-size: 11px;
+  }
+  p{
+    display: block;
+  }
+  input[name="recommend"]{
+    display:unset;
+  }
+  input[name="improved"]{
+    display: unset;
+  }
+  body{
+    background-color: #1a1a23;
+    color: #ffffff;
+    font-family: Tahoma;
+    font-size: 16px;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+  h1,p{
+    text-align: center;
+    margin-top: 0;
+  }
+  .description{
+    opacity: 0.5;
+  }
+  form{
+    width: 60vw;
+    max-width: 650px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    background-color: #0a0a23;
+  }
+  fieldset{
+    border:none;
+  }
+  input[value="Submit"]{
+    margin: auto;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    width: 250px;
+    height: 50px;
+  }
+  input,textarea,select{
+    width: 98%;
+    height: 30px;
+  }
+  input[name="recommend"],input[name="improved"]{
+    width: unset;
+    height: unset;
+  }
+  .inline{
+    text-align: unset;
+  }
+  textarea{
+    height: 85px;
+  }
+  .img{
+    position: fixed;
+    background-image: url(https://www.google.com/search?q=discuss&sca_esv=583880146&tbm=isch&sxsrf=AM9HkKkD5-rQno5OATq7bR34qWa7jdJIbA:1700452525163&source=lnms&sa=X&ved=2ahUKEwiLz-Cl19GCAxXLUGwGHQbQDYMQ_AUoAXoECAUQAw&biw=1366&bih=657&dpr=1#imgrc=krZmTSWl6q468M) ;
+  }
